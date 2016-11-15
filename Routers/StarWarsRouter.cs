@@ -8,7 +8,7 @@
     {
         public StarWarsRouter()
         {
-            this.Get["person[{ranges:id}].name"] = async parameters =>
+            this.Get["person[{ranges:id}]"] = async parameters =>
             {
                 var service = new StarWarsService();
 

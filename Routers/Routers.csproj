@@ -34,6 +34,14 @@
       <HintPath>..\packages\Falcor.0.1.2-alpha-1\lib\net45\Falcor.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Falcor.Router, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Falcor.Router.1.0.1\lib\net45\Falcor.Router.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Falcor.Router.Owin, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Falcor.Router.Owin.1.0.0\lib\net45\Falcor.Router.Owin.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Falcor.Server, Version=0.0.4.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Falcor.Server.0.1.2-alpha-1\lib\net45\Falcor.Server.dll</HintPath>
       <Private>True</Private>
@@ -48,14 +56,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Owin, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f0ebd12fd5e55cc5, processorArchitecture=MSIL">
-      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Sprache, Version=2.0.0.47, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sprache.2.0.0.47\lib\portable-net4+netcore45+win8+wp8+sl5+MonoAndroid1+MonoTouch1\Sprache.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />

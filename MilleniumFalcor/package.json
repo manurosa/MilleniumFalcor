@@ -1,0 +1,24 @@
+{
+  "name": "millenium-falcor",
+  "version": "0.0.0",
+  "description": "Falcor implementation with a C# server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -w" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manurosa/MilleniumFalcor.git"
+  },
+  "author": "Manu Rosa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manurosa/MilleniumFalcor/issues"
+  },
+  "homepage": "https://github.com/manurosa/MilleniumFalcor#readme",
+  "dependencies": {
+    "falcor": "^0.1.17",
+    "falcor-http-datasource": "^0.1.3"
+  }
+}
